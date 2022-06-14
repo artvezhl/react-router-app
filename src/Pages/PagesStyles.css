@@ -1,0 +1,18 @@
+.main__cover {
+    position: relative;
+    height: 100vh;
+}
+
+.main__heading {
+    display: block;
+}
+
+.main__background {
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    opacity: .7;
+}
