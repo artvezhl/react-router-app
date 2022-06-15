@@ -1,6 +1,8 @@
 .main__cover {
     position: relative;
     height: 100vh;
+    background-image: url("../images/susan-wilkinson-xuGGytlK0-E-unsplash.jpg");
+    background-size: cover;
 }
 
 .main__heading {
@@ -15,4 +17,8 @@
     left: 0;
     height: 100%;
     opacity: .7;
+}
+
+.color-red {
+    background-color: red;
 }
